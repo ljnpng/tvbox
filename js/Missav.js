@@ -1,6 +1,7 @@
 var rule = {
     title: 'MissAV',
     host: 'https://missav.ai',
+    homeUrl: '/cn/new?page=1',
     url: '/cn/fyclass?page=fypage',
     searchUrl: '/cn/search/**?page=fypage',
     searchable: 1,
@@ -27,6 +28,7 @@ var rule = {
         };
     }),
     一级: '.thumbnail;img&&alt;img&&data-src;.absolute.bottom-1&&Text;a&&href',
+    推荐: '*',
     二级: '*',
     搜索: '.thumbnail;img&&alt;img&&data-src;.absolute.bottom-1&&Text;a&&href'
 };
